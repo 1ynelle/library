@@ -6,8 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Library | The Odin Project</title>
     <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <h1 class="header__title | icon">My Library</h1>
+        <button type="button" class="add-btn | btn--primary | icon">
+          Add Book
+        </button>
+      </div>
+    </header>
+
+    <!-- Library -->
+    <main class="library">
+      <div class="container">
+        <!-- Book Component Template -->
+        <!-- <article class="book-wrapper" data-index="1">
+          <div class="book">
+            <div class="book__info">
+              <h2 class="book__title">The Hobbit</h2>
+              <p class="book__author">J.R.R. Tolkien</p>
+            </div>
+            <div class="status">
+              <input
+                type="checkbox"
+                name="status"
+                id="book1-status"
+                class="icon"
+              />
+              <label for="book1-status">Reading</label>
+            </div>
+          </div>
+          <button
+            class="remove-btn icon"
+            type="button"
+            aria-label="remove"
+          ></button>
+        </article> -->
+      </div>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal-window">
+      <article class="modal">
+        <button class="close-btn" aria-label="close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <!-- Book Form -->
+        <form action="" method="" class="book-form">
+          <h2 class="book-form__title">Add to Your Library</h2>
+
+          <div class="form-control">
+            <label for="book-title">Book Title</label>
+            <input type="text" id="book-title" name="book-title" required />
+          </div>
+
+          <div class="form-control">
+            <label for="book-author">Author</label>
+            <input type="text" id="book-author" name="book-author" required />
+          </div>
+
+          <div class="form-control">
+            <label for="book-status">Status</label>
+            <select name="book-status" id="book-status">
+              <option value="Reading">Reading</option>
+              <option value="Finished">Finished</option>
+            </select>
+          </div>
+
+          <button name="submit" class="btn--primary">Submit</button>
+        </form>
+      </article>
+    </div>
+  </body>
 </html>
