@@ -225,6 +225,7 @@ h3 {
 
 .book .status input[type='checkbox'] {
   background-color: transparent;
+  cursor: pointer;
   width: 1.6rem;
   height: 1.6rem;
   border: 0.2rem solid var(--clr-reading-900);
@@ -240,6 +241,10 @@ h3 {
 .book .status input[type='checkbox']:checked::before {
   content: '\f058';
   color: var(--clr-finished-900);
+}
+
+.book .status label {
+  cursor: pointer;
 }
 
 /* || MODAL */
