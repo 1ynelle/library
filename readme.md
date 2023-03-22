@@ -2,7 +2,7 @@
 
 Submission for [TOP's Library Project](https://www.theodinproject.com/lessons/node-path-javascript-library)
 
-#### **🔗 [Live Preview](1ynelle.github.io/library)**
+#### **🔗 [Live Preview](https://silly-cajeta-fe2b5a.netlify.app/)**
 
 ### Learned:
 
