@@ -4,6 +4,8 @@ Submission for [TOP's Library Project](https://www.theodinproject.com/lessons/no
 
 **[🔗 Live Preview](https://silly-cajeta-fe2b5a.netlify.app/)**
 
+<img src="/images/library_top.png" alt="Library Site Image Preview" width="600">
+
 #### Learned:
 
 - Separate different tasks (Ex: creating elements) into multiple functions
